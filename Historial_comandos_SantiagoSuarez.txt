@@ -1,0 +1,741 @@
+sudo snap install firefox
+sudo apt-get update
+sudo apt-get install firefox
+manls
+man ls
+history
+ls
+ls -l
+ls -lt
+ls -tah
+man ls
+pwd
+echo "Hola mundo" > saludar.txt
+ls
+ls -l
+cat saludar.txt 
+less saludar.txt 
+more saludar.txt 
+history > historial.jpg
+ls -l
+more historial.jpg 
+history >> historial.jpg
+more historial.jpg 
+td bin
+history
+q
+ls
+cat tarea_1.txt 
+cd /tmp/tutorial
+cd ..
+ls
+cd ..
+cd tmp
+ls
+cd tutorial
+cd /home/osboxes
+ls /dev/t*C1
+ls /dev/t*
+echo "6. ls /dev/t*C1" >> tarea_1.txt 
+cat tarea_1.txt 
+cd ..
+ls -a
+cd /home/osboxes
+echo "7. ls -a" >> tarea_1.txt 
+cat tarea_1.txt 
+ls ^t
+cd ../..
+ls ^y
+ls | grep -v '^t'
+ls etc | grep -v '^t'
+ls etc
+cd /home/osboxes
+echo "ls etc | grep -v '^t'" >> tarea_1.txt 
+cat tarea_1.txt 
+sed -i '$d' tarea_1.txt 
+echo "8. ls etc | grep -v '^t'" >> tarea_1.txt 
+cat tarea_1.txt 
+ls /us/
+cd ../..
+ls /usr
+ls -l /usr
+ls -R /usr
+cd /home/osboxes
+echo "9. ls -R /usr" >> tarea_1.txt 
+cat tarea_1.txt 
+echo "10. cd /tmp" >> tarea_1.txt 
+cd /tmp
+pwd
+/home/osboxes
+cd /home/osboxes
+echo "11. pwd" >> tarea_1.txt 
+cat tarea_1.txt 
+cd /tmp
+date
+cd ../..
+date
+cd /home/osboxes
+echo "12. date" >> tarea_1.txt 
+cat tarea_1.txt 
+echo "13. cd /home" >> tarea_1.txt 
+cat tarea_1.txt 
+echo "14. pwd" >> tarea_1.txt 
+cd /home
+pwd
+ls -i
+ls -i ~
+cd ../..
+ls -i /home
+cd ~
+echo "14 ls -i home" >> tarea_1.txt 
+cat tarea_1.txt 
+sed -i '$d' tarea_1.txt 
+echo "15. ls -i home" >> tarea_1.txt 
+cat tarea_1.txt 
+mkdir prueba
+ls
+cd prueba
+echo "hola" > archivo1.txt
+echo "hola2" > archivo2.txt
+ls
+cd ..
+rm /prueba
+rm prueba
+rm prueba/*
+ls prueba
+ls
+echo "16. rm prueba/*" >> tarea_1.txt 
+cat tarea_1.txt 
+cd prueba
+echo "hola" > archivo1.txt
+echo "hola2" > archivo2.txt
+mkdir dir1
+ls
+cd ..
+rm -r prueba
+ls
+mkdir prueba
+cd prueba
+echo "hola" > archivo1.txt
+echo "hola2" > archivo2.txt
+mkdir dir1
+ls
+cd ..
+rm -r prueba/*
+ls
+ls prueba
+sed -i '$d' tarea_1.txt 
+echo "rm -r prueba/*" >> tare
+echo "16. rm -r prueba/*" >> tarea_1.txt 
+cat tare
+cat tarea_1.txt 
+rm ~/tare
+ls
+cd prueba
+cd ..
+mkdir prueba/dir1 prueba/dir2 prueba/dir3
+ls prueba
+rmdir prueba/*
+ls prueba
+mkdir prueba/dir1/dir11 prueba/dir2 prueba/dir3/dir31/dir311 prueba/dir3/dir31/dir312
+mkdir -p prueba/dir1/dir11 prueba/dir2 prueba/dir3/dir31/dir311 prueba/dir3/dir31/dir312
+ls prueba
+ls prueba/dir1
+ls prueba/dir2
+ls prueba/dir3
+ls prueba/dir3/dir31
+echo "17. mkdir -p prueba/dir1/dir11 prueba/dir2 prueba/dir3/dir31/dir311 prueba/dir3/dir31/dir312" >> tarea_1.txt 
+cd prueba ls
+cp /etc/motd prueba/mensaje
+cd /etc
+ls
+cd ../..
+cat /etc/motd
+sudo nano /etc/motd
+wq
+:wq
+cat /etc/motd
+cp /etc/motd /home/osboxes/prueba/mensaje
+cd /home/osboxes
+ls
+cd prueba
+ls
+cat mensaje
+cd ..
+echo "cp /etc/motd prueba/mensaje" >> tarea_1.txt 
+sed -i '$d' tarea_1.txt 
+echo "18. cp /etc/motd prueba/mensaje" >> tarea_1.txt 
+cat tarea_1.txt 
+history
+ls tarea_1.txt 
+cat tarea_1.txt 
+mkdir /tmp/tutorial
+cd /tmp/tutorial
+mkdir dir1 dir2 dir3
+history
+cat tarea_1.txt 
+ls
+cat tarea_1.txt 
+cp /etc/motd dir1 dir2 dir3
+las
+ls
+ls prueba
+cp /prueba/mensaje dir1 dir2 dir3
+cp /prueba/mensaje /prueba/dir1 /prueba/dir2 /prueba/dir3
+cp /prueba/mensaje /prueba/dir1
+cp prueba/mensaje prueba/dir1
+cp prueba/mensaje prueba/dir2
+cp prueba/mensaje prueba/dir3
+ls prueba/dir1
+ls prueba/dir1 prueba/dir2 prueba/dir3
+echo "19. cp prueba/mensaje prueba/dir1" >> tarea_1.txt 
+echo "    cp prueba/mensaje prueba/dir2" >> tarea_1.txt 
+echo "    cp prueba/mensaje prueba/dir3" >> tarea_1.txt 
+echo "20. ls prueba/dir1 prueba/dir2 prueba/dir3" >> tarea_1.txt 
+cat tarea_1.txt 
+chmod 666 saludar.txt 
+ls -l
+chmod 777  saludar.txt 
+ls -l
+saludar.txt
+./saludar.txt 
+./saludar.txt
+chmod 755 saludar.txt 
+ls -l
+chmod 777 saludar.txt 
+ls -l
+chmod 766 saludar.txt 
+./saludar.txt 
+echo "hola" > saludar.txt 
+./saludar.txt 
+rm saludar.txt 
+ls -l
+echo "hola" > saludar.txt
+chmod 777 saludar.txt 
+./saludar.txt 
+chmod 766 saludar.txt 
+./saludar.txt 
+useradd -s /bin/bash -m -c "usuario prueba" prueba
+sudo useradd -s /bin/bash -m -c "usuario prueba" prueba
+cd ..
+ls
+cd osboxes/
+ls
+ls /etc/pswd
+ls etc
+ls /etc
+ls passwd
+cat passwd
+more /etc/passwd
+id
+id prueba
+id last
+whoami
+who
+finger
+sudo apt instal fin
+sudo apt install finger
+sudo passwd prueba
+sudo login prueba
+id
+pwd
+group add desarrollo
+groupadd desarrollo
+sudo groupadd desarrollo
+ls -l
+cat /etc/grup
+cat /etc/group
+groups
+groups prueba
+groups osboxes
+sudo groups osboxes
+usermod -a -G desarrollo prueba
+sudo usermod -a -G desarrollo prueba
+groups pr
+groups prueba
+sudo usermod -a -G testing prueba
+sudo groupadd testing
+groups
+sudo usermod -a -G testing prueba
+groups prueba
+sudo usermod -a -G testing osboxes
+groups
+groups osboxes
+sudo usermod -a -G desarrollo osboxes
+groups osboxes
+cat /etc/passwd
+more /etc/groups
+ls /etc
+cat /etc/group
+more /etc/shadow
+sudo more /etc/shadow
+sudo pass/test
+ls -l /etc/passwd
+ls -ld /etc
+mkdir midir
+ls
+chown osboxes midir
+own midir
+chown "nobody" midir
+chown "nobody" "midir"
+sudo chown "nobody" "midir"
+ls -l midir
+ls -l
+chgrp "users" "midir"
+sudo chgrp "users" "midir"
+ls -l
+sudo chown "nobody" "midir" chgrp "users" "midir"
+cd tmp
+cd/tmp
+cd /tmp
+mkdir ejercitacion
+ls
+cd ejercitacion/
+mkdir -p /Parcial/informacion/datos /Parcial/cursada/datos
+mkdir -p Parcial/informacion/datos Parcial/cursada/datos
+ls
+ls Parcial/
+cd ~
+sudo apt install terminator
+cd /tmp/ejercitacion
+mkdir {{/Testing}{/desarrollo}{/deploy}}/fuentes /respuesta/{{archivos}{copia}}
+mkdir {{/Testing}{/desarrollo}{/deploy}}/fuentes /respuesta/{archivos}{copia}
+
+mkdir -p {{/Testing}{/desarrollo}{/deploy}}/fuentes /respuesta/{{archivos}{copia}}
+ls
+rm -r {{  copia}
+ls
+mkdir -p {/respuesta/{archivos}{copia}}
+ls
+rm {
+rm -r {
+ls
+mkdir -p /{testing,desarrollo,deploy}/fuentes respuesta/{archivos,copia}
+mkdir -p {/testing,/desarrollo,/deploy}/fuentes respuesta/{archivos,copia}
+sudo mkdir -p /{testing,desarrollo,deploy}/fuentes respuesta/{archivos,copia}
+ls
+ls respuesta
+cd -
+ls
+cd ..
+ls
+ls desarrollo
+rm -r desarrollo
+rm -r testing
+sudo rm -r desarrollo testing deploy
+ls
+cd /tmp/ejercitacion/
+rm -r respuesta
+mkdir -p {testing,desarrollo,deploy}/fuentes respuesta/{archivos,copia}
+ls
+echo /proc/cpuinfo > respuesta/archivos/apellidoCPU.txt 
+cat respuesta/archivos/apellidoCPU.txt 
+cp /proc/cpuinfo > respuesta/archivos/apellidoCPU.txt 
+cp /proc/cpuinfo respuesta/archivos/apellidoCPU.txt 
+cat respuesta/archivos/apellidoCPU.txt 
+cat /sys/class/net/*/address > respuesta/archivos/apellidoNombreRed.txt
+cat respuesta/archivos/apellidoNombreRed.txt 
+ssh
+man ssh
+ssh bandit0@bandit.labs.overwrite.org -p 2220
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+nmcli d
+sudo systemctl restart NetworkManager
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+ssh bandit1@bandit.labs.overthewire.org -p 2220
+ip a
+ls -l
+mkdir tutorial
+cd tutorial
+mkdir dir1 dir2 dir3
+ls
+mkdir -p dir4/dir5/dir6
+ls
+cd dir4
+ls
+cd dir5
+ls
+cd dir6
+cd../../..
+cd ../../..
+mkdir "folder1"
+mkdir "folder 2"
+rm -r folder1
+mkdir "folder 1"
+mkdir folder\ 3
+mkdir "folder 4" "folder 5"
+mkdir -p "folder 6"/"folder 7"
+ls
+ls > output.txt
+cat output.txt 
+echo "This is a test"
+echo "This is a test" > test_1.txt
+echo "This is a second test" > test_2.txt
+echo "This is a third test" > test_3.txt
+ls
+cat test_1.txt test_2.txt test_3.txt
+cat test_?.txt
+cat test_*
+cat t* > combined.txt
+cat combined.txt 
+cat t* >> combined.txt
+echo "I've appended a line!" >> combined.txt 
+cat combined.txt 
+less combined.txt 
+echo "Lower case" > a.txt
+echo "Upper case" > A.TXT
+echo "Mixed case" > A.txt
+ls
+mv combined.txt dir1
+ls dir
+ls dir1
+mv dir1/* .
+ls
+mv combined.txt test_* dir3 dir2
+ls
+ls dir2
+mv dir2/combined.txt dir4/dir5/dir6
+ls dir2
+ls dir4/dir5/dir6
+cp dir4/dir5/dir6/combined.txt .
+ls dir4/dir5/dir6
+ls
+cp combined.txt backup_combined.txt
+ls
+mv backup_combined.txt combined_backup.txt
+ls
+mv "folder 1" folder_1
+mv "folder 2" folder_2
+mv "folder 3" folder_3
+mv "folder 4" folder_4
+mv "folder 5" folder_5
+mv "folder 6" folder_6
+ls
+rm dir4/dir5/dir6/combined.txt combined_backup.txt 
+rm folder_*
+rm -r folder_*
+mkdir folder_1
+mkdir folder_2
+mkdir folder_3
+mkdir folder_4
+mkdir folder_5
+ls
+wc combined.txt 
+wc -l combined.txt 
+wc -c combined.txt 
+wc -w combined.txt 
+ls ~ > file_list.txt
+wc -l file_list.txt 
+rm file_list.txt 
+ls ~ | wc -l
+ls ~
+ls /etc|wc -l
+ls /etc | less
+cat combined.txt | uniq | wc -l
+cat combined.txt | uniq | less
+cat combined.txt | less
+cat combined.txt | uniq | less
+sort combined.txt | less
+sort combined.txt | uniq | wc -l
+cat /etc/shadow
+sudo cat /etc/shadow
+e
+rer
+reset
+sudo cat /etc/shadow
+sudo apt install tree
+tree
+finger
+history
+tree
+mv combined.txt .combined.txt
+ls
+cat .combined.txt 
+mkdir .hidden
+mv .combined.txt .hidden/
+less .hidden/.combined.txt 
+ls
+ls .hidden/
+ls -a
+ls -a .hidden/
+tree
+tree -a
+cd
+ls
+ls -a
+ls -a | wc -l
+                                                                                                                                                                ls -l /etc/passwd
+ls -ld /etc
+touch archivo01.txt
+chmod 740 archivo01.txt
+ls -l 
+chown alumnos archivo01.txt
+chown osboxes archivo01.txt 
+chown osboxes:users archivo01.txt 
+chgrp users archivo01.txt
+cat /etc/group
+sudo groupadd prueba2
+chgrp prueba2 archivo01.txt 
+sudo usermod -a -G prueba2 osboxes
+sudo chgrp prueba2 archivo01.txt 
+ls -l
+chmod 744 archivo01.txt 
+ls -l
+mkdir midir
+rm -r midir
+ls
+ls midir
+rm -r midir
+ls
+mkdir midir
+chmod 740 midir
+chgrp users midir
+sudo chgrp users midir
+ls -l
+sudo chown nobody chgrp users midir
+ls -l
+sudo chown osboxes midir
+sudo chgrp prueba2 midir
+ls -l
+sudo chown nobody:users midir
+ls -l
+cat 1. mkdir midir > tarea_usuarios_permisos.txt
+cat "1. mkdir midir" > tarea_usuarios_permisos.txt
+echo 1. mkdir midir > tarea_usuarios_permisos.txt
+echo 2. chmod 740 midir
+echo 2. chmod 740 midir >> tarea_usuarios_permisos.txt 
+echo 3. sudo chown nobody:users midir >> tarea_usuarios_permisos.txt 
+cat tarea_usuarios_permisos.txt 
+chgrp nogroup midir
+sudo chgrp nogroup midir
+echo 4. sudo chgrp nogroup midir
+echo 4. sudo chgrp nogroup midir >> tarea_usuarios_permisos.txt 
+grep prueba /etc/passwd
+whoami
+finger
+sudo groupadd recursos contable
+ls
+cat /etc/group
+sudo groupadd recursos
+sudo groupadd contable
+sudo useradd -m -s /bin/bash -c "recu" -g users -G recursos
+finger
+cat /etc/passwd
+sudo useradd -m -s /bin/bash -g users -G recursos recu
+cat /etc/passwd
+usermod -c "usuario recursos"
+usermod -c "usuario recursos" recu
+sudo usermod -c "usuario recursos" recu
+cat /etc/passwd
+useradd -m -s /bin/bash -c "usuario contable" -g users -G contable cont
+sudo useradd -m -s /bin/bash -c "usuario contable" -g users -G contable cont
+cat /etc/passwd
+mkdir recursos
+chown recu:recursos /recursos
+chown recu:recursos recursos
+sudo chown recu:recursos recursos
+sudo chown cont:contable contable
+mkdir contable
+sudo chown cont:contable contable
+ls -l
+cat tarea_usuarios_permisos.txt 
+echo "5. sudo groupadd recursos" >> tarea_usuarios_permisos.txt 
+echo "6. sudo groupadd contable" >> tarea_usuarios_permisos.txt 
+echo "7. sudo useradd -m -s /bin/bash -c 'usuario recursos' -g users -G recursos recu" >> tarea_usuarios_permisos.txt 
+echo "8. sudo useradd -m -s /bin/bash -c 'usuario contable' -g users -G contable cont" >> tarea_usuarios_permisos.txt 
+echo "9. mkdir recursos" >> tarea_usuarios_permisos.txt 
+echo "sudo chown recu:recursos recursos" >> tarea_usuarios_permisos.txt 
+echo "10. mkdir contable" >> tarea_usuarios_permisos.txt 
+echo "sudo chown cont:contable contable" >> tarea_usuarios_permisos.txt 
+cat tarea_usuarios_permisos.txt 
+ls -l
+mkdir -p Parcial/informacion/datos Parcial/cursada/datos
+ls -l
+tree 
+echo "mkdir -p Parcial/informacion/datos Parcial/cursada/datos" > ejercitacion_parcial_1.txt
+rm -r ejercitacion_parcial_1.txt 
+echo "1. mkdir -p Parcial/informacion/datos Parcial/cursada/datos" > ejercitacion_parcial_1.txt
+mkdir {testing,desarrollo,deploy}/fuentes respuesta/{archivos,copia}
+mkdir -p {testing,desarrollo,deploy}/fuentes respuesta/{archivos,copia}
+tree
+echo "2. mkdir -p {testing,desarrollo,deploy}/fuentes respuesta/{archivos,copia}" >> ejercitacion_parcial_1.txt 
+echo /proc/cpuinfo > respuesta/archivos/apellidoCPU.txt
+cat respuesta/archivos/apellidoCPU.txt 
+cat /proc/cpuinfo > respuesta/archivos/apellidoCPU.txt
+cat respuesta/archivos/apellidoCPU.txt 
+echo "3. cat /proc/cpuinfo > respuesta/archivos/apellidoCPU.txt" >> ejercitacion_parcial_1.txt 
+cat /sys/class/net/*/adress > respuesta/archivos/apellidoNombreRed.txt
+cat /sys/class/net/*/address > respuesta/archivos/apellidoNombreRed.txt
+cat respuesta/archivos/apellidoNombreRed.txt 
+sudo useradd -s /bin/bash -m -c "usuario lee historial" usuarioHistorial
+finger
+cat /etc/passwd
+history 
+cat history > history.txt
+history > history.txt
+sudo chown usuarioHistorial history.txt
+ls -l
+chmod 400 history.txt 
+sudo chmod 400 history.txt 
+ls -l
+history
+sudo chown osboxes:osboxes history.txt 
+ls -l
+sudo chmod 444 history.txt 
+ls -l
+sudo chown usuarioHistorial:usuarioHistorial history.txt
+chmod 400 history.txt 
+sudo chmod 400 history.txt 
+ls -l
+chmod 400 usuarioHistorial
+sudo chmod 400 usuarioHistorial
+cp history.txt /home/usuarioHistorial/historial
+sudo cp history.txt /home/usuarioHistorial/historial
+ls -l /home/usuarioHistorial
+sudo ls -l /home/usuarioHistorial
+rm -r /home/usuarioHistorial/historial
+sudo rm -r /home/usuarioHistorial/historial
+sudo cp history.txt /home/usuarioHistorial/history.txt
+sudo ls -l /home/usuarioHistorial
+sudo groupadd grupoLectura
+sudo groupadd grupoLecturaEscritura
+sudo groupadd grupoControlTotal
+sudo useradd -m -s /bin/bash -c "usuarioLectura" usuarioLectura
+sudo usermod -aG grupoLectura usuarioLectura 
+sudo useradd -m -s /bin/bash -c "usuarioLecturaEscritura" -aG grupoLecturaEscritura usuarioLecturaEscritura
+sudo useradd -m -s /bin/bash -c "usuarioLecturaEscritura" -G grupoLecturaEscritura usuarioLecturaEscritura
+sudo useradd -m -s /bin/bash -c "usuarioControlTotal" -G grupoControlTotal usuarioControlTotal
+history
+sudo chgrp grupoLectura respuesta/archivos/apellidoCPU.txt 
+ls -l respuesta/archivos/
+sudo chmod 440 respuesta/archivos/apellidoCPU.txt 
+sudo chgrp grupoLecturaEscritura respuesta/archivos/apellidoNombreRed.txt 
+sudo chmod 660 respuesta/archivos/apellidoNombreRed.txt 
+sudo chgrp grupoControlTotal history.txt
+sudo chmod 770 history.txt 
+ls -l
+sudo chown osboxes history.txt 
+ls -l
+ls -l respuesta/archivos
+cat ejercitacion_parcial_1.txt 
+echo "4. cat /sys/class/net/*/address > respuesta/archivos/apellidoNombreRed.txt" >> ejercitacion_parcial_1.txt 
+echo "6." >> ejercitacion_parcial_1.txt 
+echo "sudo groupadd grupoLectura" >> ejercitacion_parcial_1.txt 
+echo "sudo groupadd grupoLecturaEscritura" >> ejercitacion_parcial_1.txt 
+echo "sudo groupadd grupoControlTotal" >> ejercitacion_parcial_1.txt 
+echo "sudo useradd -m -s /bin/bash -c "usuarioLectura" -G grupoLectura usuarioLectura" >> ejercitacion_parcial_1.txt 
+echo "sudo useradd -m -s /bin/bash -c "usuarioLecturaEscritura" -G grupoLecturaEscritura usuarioLecturaEscritura" >> ejercitacion_parcial_1.txt 
+echo "sudo useradd -m -s /bin/bash -c "usuarioControlTotal" -G grupoControlTotal usuarioControlTotal" >> ejercitacion_parcial_1.txt 
+echo "sudo chgrp grupoLectura respuesta/archivos/apellidoCPU.txt" >> ejercitacion_parcial_1.txt 
+echo "sudo chgrp grupoLecturaEscritura respuesta/archivos/apellidoNombreRed.txt" >> ejercitacion_parcial_1.txt 
+echo "sudo chgrp grupoControlTotal history.txt" >> ejercitacion_parcial_1.txt 
+echo "sudo chmod 440 respuesta/archivos/apellidoCPU.txt" >> ejercitacion_parcial_1.txt 
+echo "sudo chmod 660 respuesta/archivos/apellidoNombreRed.txt" >> ejercitacion_parcial_1.txt 
+echo "sudo chmod 770 history.txt" >> ejercitacion_parcial_1.txt 
+cat ejercitacion_parcial_1.txt 
+ls
+cat tarea_1.txt 
+cat tarea_usuarios_permisos.txt 
+cat ejercitacion_parcial_1.txt 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ssh-keygen
+cat $HOME/.ssh/*.pub
+cd
+mkdir repogit
+cd repogit
+git clone git@github.com:santisuarez7/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release 
+man grep
+grep HOME_URL /etc/os-release 
+grep home_url /etc/os-release 
+grep -i Home_url /etc/os-release 
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt}
+ls
+rm -r datos_usuario.txt} 
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+git add .
+git config --global user.email "santysuarez16@gmail.com"
+git config --global user.name "santisuarez7"
+git commit -m "ADD:agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+grep /proc/cpuinfo
+man grep
+grep -1 /proc/cpuinfo 
+man grep
+grep m 1 /proc/cpuinfo 
+tail -n1 /proc/cpuinfo 
+head -n1 /proc/cpuinfo 
+grep -m 1 "model name" /proc/cpuinfo 
+grep -m 1 "model name" /proc/cpuinfo >> datos_usuario.txt 
+git add .
+git commit "feat: Añadiendo informacion de CPU"
+git commit -m "feat: Añadiendo informacion de CPU"
+man grep
+grep -v "nologin" head -n10
+man sort
+grep -v "nologin" head -n10 sort -k7 /etc/passwd
+grep -v "nologin" /etc/passwd head -n10 sort -k7
+grep -v "nologin" /etc/passwd | head -n10 | sort -k7
+grep -v "nologin" /etc/passwd | head -n10 | sort -t ':' -k7
+grep -v "nologin" /etc/passwd | head -n10 | sort -k7 > lista_ordenada.txt
+history
+clear
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+echo "tcpdump" > comando_dump_net.txt
+man tcpdump
+tcpdump --help
+sudo tcpdump -D
+tcpdump -i enp0s3
+sudo tcpdump -i enp0s3
+echo "man -k 'network traffic capture'" >> comando_dump_net.txt 
+cat comando_dump_net.txt 
+man -k 'network traffic capture'
+man -k "network traffic capture"
+man tcpdump
+man -k tcpdump
+sudo msndb
+sudo mandb
+sudo apt install tcpdump
+man -k tcpdump
+man tcpdump
+man -k "network traffic capture"
+cat comando_dump_net.txt 
+rm -r comando_dump_net.txt 
+echo "tcpdump\nman -k tcpdump"
+echo "tcpdump \n man -k tcpdump"
+echo "tcpdump\nman -k tcpdump" > comando_dump_net.txt
+cat comando_dump_net.txt 
+rm -r comando_dump_net.txt 
+echo "tcpdump" > comando_dump_net.txt
+echo "man -k tcpdump" >> comando_dump_net.txt
+cat comando_dump_net.txt 
+git add .
+git commit "ADD: Comando para Capturar y analizar el trafico de red"
+git commit -m "ADD: Comando para Capturar y analizar el trafico de red"
+cat <<EOF >> README.md
+Alumno: Suárez Santiago
+Division: 111
+Turno: Mañana
+EOF
+
+cat README.md 
+cat <<EOF >> README.md
+Alumno: Suárez Santiago
+Division: 111
+Turno: Mañana
+EOF
+
+cat <<EOF >> README.md
+EOF
+
+cat README.md 
+nano README.md 
+cat README.md 
+git add .
+git commit -m "ADD: Informacion alumno README"
+history -a
